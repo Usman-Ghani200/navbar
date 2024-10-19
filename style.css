@@ -1,0 +1,39 @@
+*{
+    padding: 0%;
+    margin: auto;
+}
+.nav{
+    background-color: orangered;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    display: flex;
+}
+.navitem{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.listitems{
+    margin: 0px 20px;
+    text-decoration: none;
+    color: white;
+}
+.search-bar{
+    display: flex;
+    
+}
+.search{
+    border: 1px solid orangered; 
+}
+.btn{
+    border: 1px solid orangered;
+}
