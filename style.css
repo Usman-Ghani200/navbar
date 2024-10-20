@@ -2,6 +2,13 @@
     padding: 0%;
     margin: auto;
 }
+.card{
+    background-image: url(https://img.freepik.com/free-vector/creative-gradient-code-logo_23-2148820572.jpg?w=740&t=st=1729351599~exp=1729352199~hmac=b0d72080ffd424be5315159affba9fcb46db7fb7dff699ee5e7495501f16d79a);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vw;
+    width: 100vw;
+}
 .nav{
     background-color: orangered;
     display: flex;
@@ -9,6 +16,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    background: transparent;
 }
 .logo{
     width: 50px;
@@ -23,17 +31,81 @@
     list-style: none;
 }
 .listitems{
+    display: flex;
     margin: 0px 20px;
     text-decoration: none;
     color: white;
 }
+.listitems:hover{
+    color: black;
+    text-decoration:underline;
+}
 .search-bar{
     display: flex;
-    
+    padding: 0%;
 }
 .search{
-    border: 1px solid orangered; 
+    display: flex;
+    border: none;
+    border: 1px solid orangered;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.search:hover{
+    box-shadow: 1px 1px 10px 1px;
 }
 .btn{
+    display: flex;
+    width: 60px;
     border: 1px solid orangered;
+    cursor: pointer;
+    background-color: orangered;
+    color:white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: -1px;
+}
+.btn:hover{
+    box-shadow: 1px 1px 10px 1px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+}
+.h1{
+    display: flex;
+    margin-left: -5px;
+    color: white;
+}
+.h2{
+    display: flex;
+    margin-left: -5px;
+    color: orangered;
+    font-size: 43px;
+}
+.h3{
+    display: flex;
+    margin-left: -5px;
+    color: white;
+    font-size: 40px;
+}
+p{
+    display: flex;
+    color: white;
+    width: 300px;
+    margin-left: -3px;
+}
+.box{
+    background-color: white;
+    width: 200px;
+    height: 250px;
+    display: flex;
+    margin-right: 30px;
+    margin-top: -200px;
+    border: 1px solid  rgba(85, 83, 83, 0.479);
+    border-radius: 30px;
+    background: transparent;
+    background-color: rgba(85, 83, 83, 0.479);
+    box-shadow: 1px 1px 10px 1px white;
 }
